@@ -13,8 +13,8 @@ pokemon.lookup = (name) ->
 
 pokemon.battle = (team1, team2) ->
   # Standarize input
-  team1 = { trainer: null,      pokemon: team1 } unless team1 instanceof Object and team1 not instanceof Array
-  team2 = { trainer: 'the foe', pokemon: team2 } unless team2 instanceof Object and team2 not instanceof Array
+  team1 = { trainer: borg231,      pokemon: team1 } unless team1 instanceof Object and team1 not instanceof Array
+  team2 = { trainer: 'cylist', pokemon: team2 } unless team2 instanceof Object and team2 not instanceof Array
   
   team1.pokemon = [ team1.pokemon ] unless team1.pokemon instanceof Array
   team2.pokemon = [ team2.pokemon ] unless team2.pokemon instanceof Array
